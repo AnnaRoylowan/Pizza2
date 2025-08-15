@@ -1,0 +1,123 @@
+
+.body.{
+    margin: 0;
+    font-size: 22px;
+    background-color: rgb(100, 73, 33);
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    padding: 10px o;
+    background-color: rgb(241, 175, 68);
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-img{
+    width: 120px;
+}
+.header-list{
+    display: flex;
+    gap: 40px;
+}
+.header-link{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+.header-link:hover{
+    color: aqua;
+}
+/* 'ferst section' */
+.hero{
+    padding: 50px 0;
+    background-color:  rgb(215, 140, 26);
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-img{
+    width: 550px;
+    padding-right: 50px;
+}
+.hero-title{
+    font-size: 48px;
+    color: rgb(247, 154, 154);
+}
+/* <!-- друга секцiя --> */
+.dough{
+    padding: 50px 0;
+    background-color:  rgb(215, 153, 60);
+}
+.dough-containe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dough-title{
+    color: rgb(247, 154, 154);
+    font-size: 48px;
+}
+.dough-list{
+    list-style: disc;
+    margin-left: 50px;
+}
+.dough-img{
+    width: 550px;
+}
+        /* <!-- третя секцiя --> */
+        .third{
+            padding: 50px 0;
+            background-color: rgb(215, 140, 26);
+
+        }
+        .third-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .third-img{
+            width: 550px;
+        }
+        .third-list{
+            list-style: lower-greek;
+            margin-right: 50px;
+        }
+        .third-title{
+            font-size: 48px;
+            color: rgb(247, 154, 154);;
+
+        }
+/* footer */
+.footer{
+    padding: 50px 0;
+    background-color: rgb(215, 153, 60);
+
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-img{
+    width: 550px;
+}
+.footer-text{
+    font-size: x-large;
+}
